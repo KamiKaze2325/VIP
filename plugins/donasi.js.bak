@@ -1,0 +1,27 @@
+let handler = async m => m.reply(`╭─「 Donasi • Pulsa 」
+│ 
+│ •  Indosat 
+│ •  [0858-6014-6165]
+│ 
+╰────
+
+╭─「 Donasi • DANA.id 」
+│ 
+│ •  [0858-6014-6165]
+│ •  [ http://saweria.co/Rey404 ]
+│
+╰────
+
+╭─「 Call Me 」
+│ > Ingin donasi?
+│ > Hubungi
+│ > Wa.me/+7-922-481-65-16
+╰────
+`.trim()) // Tambah sendiri kalo mau
+
+
+handler.help = ['donasi']
+handler.tags = ['info']
+handler.command = /^dona(te|si)$/i
+
+module.exports = handler
